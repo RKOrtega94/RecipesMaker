@@ -21,9 +21,14 @@ fun main (arg: Array<String>){
         if (option in 4..0) continue@loop
         //Si esta dentro de las opciones ejecuta el ciclo que corresponde
         when (option) {
-            1 -> println("Agregar receta")
+            //Agregar receta
+            1 -> addRecipe()
             2 -> println("Ver recetas")
             3 -> println("Salir")
         }
     }
+}
+//Funcion para agregar recetas
+fun addRecipe(){
+    println("Agregar receta")
 }
